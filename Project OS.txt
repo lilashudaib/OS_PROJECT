@@ -1,0 +1,55 @@
+Project OS
+
+Lilas Hudaib
+
+CPU Scheduling Simulator
+
+Project Description:
+This project is a CPU Scheduling Simulator implemented in C++.
+It simulates different CPU scheduling algorithms and calculates
+the scheduling performance for each process.
+
+Algorithms Used:
+1. FCFS
+2. SJF Non-Preemptive
+3. SJF Preemptive
+4. Priority Non-Preemptive
+5. Priority Preemptive
+6. Round Robin
+
+Input:
+The user enters the number of processes.
+For each process, the user enters:
+- Arrival Time
+- Burst Time
+- Priority
+
+For Round Robin, the user also enters the Time Quantum.
+
+Output:
+The program displays:
+- Gantt Chart / Execution Timeline
+- Completion Time
+- Waiting Time
+- Turnaround Time
+- Response Time
+- Average Waiting Time
+- Average Turnaround Time
+
+The program also provides a comparison between all
+scheduling algorithms using Average Waiting Time and
+Average Turnaround Time.
+
+How to Run:
+1. Compile the main.cpp file using a C++ compiler.
+2. Run the program.
+3. Enter the process information.
+4. Choose an algorithm from the menu.
+5. For Round Robin, enter the Time Quantum.
+6. Choose option 7 to compare all algorithms.
+
+Notes:
+The program uses std::vector to store processes and
+std::queue for the Ready Queue in Round Robin.
+For Priority Scheduling, a smaller priority number
+means higher priority.
