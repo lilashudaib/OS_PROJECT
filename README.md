@@ -1,4 +1,3 @@
-# OS_PROJEC
 # CPU Scheduling Simulator
 
 A C++ simulator for CPU scheduling algorithms, built as part of the Operating Systems course.
